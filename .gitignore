@@ -1,0 +1,55 @@
+#Archivo txt
+sistema_de_inventario_legaxxi.txt
+
+# Dependencias de Composer
+/vendor/
+
+# Dependencias de Node.js (npm/yarn)
+/node_modules/
+
+# Configuración de entorno local
+.env
+
+# Archivos de configuración específicos del IDE
+/.idea/
+/.vscode/
+
+# Archivos de caché del servidor web
+/storage/
+# Laravel specific, if using it
+/storage/*.key
+/public/storage
+
+# Logs y registros de depuración
+*.log
+*.log.*
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+/tmp/
+/temp/
+/cache/
+
+# Archivos de sesión de PHP
+/sessions/
+
+# Archivos de respaldo
+*.bak
+*.backup
+*.swp
+
+# Archivos específicos del sistema operativo
+*.out
+*.pid
+
+# Archivos y directorios generados por PHPUnit
+/build/
+.phpunit.result.cache
+/_output/
+
+# Archivos generados por herramientas de construcción frontend (por ejemplo, Webpack, Gulp)
+dist/
+build/
